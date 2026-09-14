@@ -1,6 +1,6 @@
 # Predict Number
 
-# Mini Projeto M2 - Predição de Dígitos Manuscritos
+## Mini Projeto M2 - Predição de Dígitos Manuscritos
 
 ## 1. Problema que o projeto resolve
 
@@ -172,24 +172,13 @@ Ao final da execução, o projeto permite observar:
 Algumas melhorias possíveis para evoluir o projeto incluem:
 
 - adicionar mais modelos, como SVM ou CNN;
-- aplicar técnicas avançadas de aumento de dados;
+- aplicar técnicas avançadas de aumento de dados (Data Augmentation);
 - melhorar o pré-processamento com detecção automática de bordas e threshold adaptativo;
 - criar uma interface gráfica mais amigável;
 - salvar os modelos treinados em arquivos para reutilização direta;
-- implementar detecção de imagens fora da distribuição de treino;
-- incluir análise de confiança e top-3 classes previstas;
-- automatizar a execução do notebook em um ambiente de produção.
 
-## 10. Possíveis limitações
-
-- O desempenho com imagens externas pode cair se a entrada tiver ruído, rotação ou escala muito diferentes;
-- o modelo não reconhece automaticamente quando a entrada é desconhecida;
-- imagens com fundo muito irregular podem necessitar de ajustes adicionais no pré-processamento.
-
-## 11. Conclusão
+## 10. Conclusão
 
 Este projeto é uma solução prática e didática para classificação de dígitos manuscritos com Python e machine learning. Ele não apenas treina e compara modelos, mas também mostra como esses modelos se comportam em condições mais próximas do mundo real, incluindo imagens externas e cenários de classes ocultas.
 
-## 12. Licença
 
-Este projeto foi desenvolvido para fins acadêmicos e avaliativos dentro do escopo do módulo.
